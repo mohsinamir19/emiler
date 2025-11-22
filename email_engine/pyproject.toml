@@ -1,0 +1,20 @@
+[project]
+name = "email_engine"
+version = "0.1.0"
+description = "A Python module to load CSVs, validate emails, generate personalized emails, integrate with LLMs and SendGrid, and run a Gradio UI."
+
+# Dependencies as a list
+dependencies = [
+    "pandas>=2.1",
+    "pydantic[email]>=2.2",
+    "jinja2>=3.1",
+    "sendgrid>=6.11",
+    "gradio>=4.12",
+    "langchain-openai>=0.1.0",
+    "langgraph>=0.1.0",
+    "dotenv>=0.9.9",
+    "pip>=25.3",
+    "uvicorn>=0.38.0",
+    "fastapi>=0.121.2",
+]
+

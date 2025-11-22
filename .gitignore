@@ -1,3 +1,8 @@
 .env
 email_markerter.ipynb
+premailer.ipynb
 .venv
+extra
+node_modules
+node_modules/
+*.lock
